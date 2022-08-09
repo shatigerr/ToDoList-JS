@@ -1,0 +1,24 @@
+<h1>Today Tasks</h1>
+<form action="/" method="post" class="form">
+    
+    <input id="tasks" name="tasks" type="text">
+    
+    <a onclick="this.parentNode.submit();">
+        <i class="fa-solid fa-paper-plane"></i>
+    </a> 
+    
+</form>
+
+<div class="cont">
+    <ul>
+        {{#each foundItems}}
+        
+        <form class="item-tasks">
+            <li>{{this.name}}</li>
+            <a class="a-icon" href="/delete/{{this._id}}">
+                <i class="fa-solid fa-trash"></i>
+            </a>
+        </form>
+        {{/each}}
+    </ul>
+</div>

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+ * {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+     
+ }
+
+ h1{
+    font-family:'Shadows Into Light';
+    font-size:  60px;
+    color: #f7c41f;
+ }
+
+ body {
+    background-color:#7e0b7d ;
+ }
+
+/* #7e0b7d lila
+#f7c41f amarillo
+#3ec9a7 azul
+#aedd2b verde
+#8a2f62 otro lila
+#9cd0ac azul cielo
+#f00065 rosa */
+
+
+
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  bottom: 190px;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  bottom: 500px;
+}
+
+h1 { 
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 100px;
+}
+
+.item-tasks {
+    display: flex;
+    background-color: #ffffa1;
+    width: 300px;
+    height: 70px;
+    border: solid 2px #001f00;
+    border-bottom: none;
+    justify-content: space-between;
+   
+}
+
+#tasks{
+   background-color: #f7c41f;
+   border-radius: 30px;
+   height: 32px;
+   width: 345px;
+   text-align: center;
+   border: solid black 2px;
+}
+
+.fa-paper-plane{
+   position: relative;
+   right: 45px;
+   color: #7e0b7d;
+    
+   padding: 9.3px;
+   
+}
+
+li{
+   list-style: none;
+   margin-top: 25px;
+   margin-left: 10px;
+}
+
+.fa-trash {
+   margin-top: 25px;
+   margin-right: 3px; 
+   font-size: 20px;
+   color: black;
+}
+
+.fa-trash:visited{
+   color: black;
+}
+
+.a-icon{
+   background-color: white;
+   width: 60px;
+}
